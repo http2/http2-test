@@ -1,0 +1,38 @@
+{
+  "name": "http2-test",
+  "version": "0.0.1",
+  "description": "HTTP 2 test cases",
+  "main": "lib/index.js",
+  "scripts": {
+    "main": "lib/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/http2/http2-test"
+  },
+  "keywords": [
+    "http2",
+    "http2-test"
+  ],
+  "author": "Parashuram <code@r.nparashuram.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/http2/http2-test/issues"
+  },
+  "dependencies": {
+    "http2-protocol": "~0.7.0",
+    "bunyan": "~0.22.1",
+    "commander": "~2.1.0",
+    "mocha": "~1.15.1",
+    "glob": "~3.2.7",
+    "chai": "~1.8.1",
+    "http2": "~2.1.0"
+  },
+  "devDependencies": {
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.2.0"
+  }
+}
