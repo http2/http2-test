@@ -1,0 +1,37 @@
+{
+
+    "strict": false, // Require `use strict` pragma in every file.
+    "globalstrict": false, // Allow global "use strict" (also enables 'strict').
+    "eqeqeq": true, // Require triple equals i.e. `===`.
+    "evil": false, // Tolerate use of `eval`.
+    "expr": false, // Tolerate `ExpressionStatement` as Programs.
+    "forin": false, // Tolerate `for in` loops without `hasOwnPrototype`.
+    "immed": true, // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
+    "latedef": true, // Prohipit variable use before definition.
+    "loopfunc": false, // Allow functions to be defined within loops.
+    "noarg": true, // Prohibit use of `arguments.caller` and `arguments.callee`.
+    "regexp": true, // Prohibit `.` and `[^...]` in regular expressions.
+    "regexdash": false, // Tolerate unescaped last dash i.e. `[-...]`.
+    "scripturl": true, // Tolerate script-targeted URLs.
+    "shadow": false, // Allows re-define variables later in code e.g. `var x=1; x=2;`.
+    "supernew": true, // Tolerate `new function () { ... };` and `new Object;`.
+    "undef": true, // Require all non-global variables be declared before they are used.
+    "noempty": true, // Prohibit use of empty blocks.
+    "nonew": true, // Prohibit use of constructors for side-effects.
+    "nomen": false, // Prohibit use of initial or trailing underbars in names.
+    "white": true, // Check against strict whitespace and indentation rules.
+    "trailing": true, // Prohibit trailing whitespaces.
+    "sub": true, // Tolerate all forms of subscript notation besides dot notation e.g. `dict['key']` instead of `dict.key`.
+    "indent": 2,
+
+    "curly": true,
+    "eqnull": true,
+    "browser": true,
+    "node": true,
+    "globals": {},
+
+    "predef": [
+        "global",
+        "require",
+    ]
+}

@@ -1,9 +1,14 @@
-'use strict'
-
 module.exports = function(grunt) {
-    
 	require('load-grunt-tasks')(grunt);
 	grunt.initConfig({
+		jshint: {
+			options: {
+
+			},
+			all: {
+				src: ['lib/**/*.js', 'Gruntfile.js']
+			}
+		},
 		mochaTest: {
 			options: {
 				reporter: 'dot',
@@ -11,9 +16,10 @@ module.exports = function(grunt) {
 			},
 			client: {
 				src: ['./lib/client/index.js']
-			},			
+			},
 		}
 	});
 
+	grunt.registerTask('travis', ['jshint', 'mochaTest:client']);
 	grunt.registerTask('default', ['mochaTest:client']);
-}
+};
