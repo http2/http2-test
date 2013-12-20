@@ -20,6 +20,7 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('travis', ['jshint', 'mochaTest:client']);
-	grunt.registerTask('default', ['mochaTest:client']);
+	grunt.registerTask('build', ['jshint']);
+	grunt.registerTask('test', ['build', 'mochaTest:client']);
+	grunt.registerTask('default', ['test']);
 };
