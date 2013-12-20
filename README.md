@@ -1,4 +1,4 @@
-#http2-test
+#http2-test [![Build Status](https://travis-ci.org/http2/http2-test.png)](https://travis-ci.org/http2/http2-test)
 
 Test Suite for HTTP/2 protocol.
 
