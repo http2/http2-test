@@ -4,8 +4,35 @@ Test Suite for HTTP/2 protocol.
 
 The tests are divided into client and server tests. 
 
+#Installation
+
+The tests are written in JavaScript and run in the [node.js](http://nodejs.org/) JavaScript runtime
+environment. As a first step, [download](http://nodejs.org/download/) and install node.js.
+
+The test runner has several dependencies. These can be installed with `npm` (the Node Package
+Manager, part of every node.js installation), with the following command issued in the root
+directory of your clone of this git repo:
+
+```bash
+$ npm install
+```
+
+Furthermore, you'll also need `grunt-cli`:
+
+```bash
+$ npm install -g grunt-cli
+```
+
 #Usage
-Install all node modules and run `grunt mochaTest:client`. A sample browser is also included.
+
+After installing the dependencies, run:
+
+```bash
+$ grunt mochaTest:client
+```
+
+A sample browser is included.
+
 #Adding Tests
 
 ## Server tests
