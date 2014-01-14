@@ -21,13 +21,13 @@
     "url": "https://github.com/http2/http2-test/issues"
   },
   "dependencies": {
-    "http2-protocol": "~0.7.0",
+    "http2-protocol": "~0.9.1",
     "bunyan": "~0.22.1",
     "commander": "~2.1.0",
     "mocha": "~1.15.1",
     "glob": "~3.2.7",
     "chai": "~1.8.1",
-    "http2": "~2.1.0"
+    "http2": "~2.2.0"
   },
   "devDependencies": {
     "grunt-mocha-test": "~0.8.1",
