@@ -17,7 +17,7 @@ directory of your clone of this git repo:
 $ npm install
 ```
 
-Furthermore, you'll also need `grunt-cli`:
+You'll also need `grunt-cli`:
 
 ```bash
 $ npm install -g grunt-cli
@@ -25,20 +25,24 @@ $ npm install -g grunt-cli
 
 #Usage
 
-After installing the dependencies, run:
+## Testing the client
+
+After installing the dependencies, as described above, set the envrinoment variable HTTP2_BROWSER to the client executable. Note that the client should be able to parse a URL in its command line. Then run 
 
 ```bash
 $ grunt mochaTest:client
 ```
 
-A sample browser is included.
+To try out the tests, a sample browser is included. This is picked up if the HTTP2_BROWSER environment variable does not exist. 
+
+## Testing the server
+
+> This is still a work in progress and there are no tests available currently. 
 
 #Adding Tests
 
 ## Server tests
 For server tests, create new tests as the `./lib/tests/*-test.js` directory. Look at the template-test.js for an example
-
-
 
 NOTE WELL
 ---------
