@@ -33,7 +33,7 @@ After installing the dependencies, as described above, set the envrinoment varia
 $ grunt mochaTest:client
 ```
 
-To try out the tests, a sample browser is included. This is picked up if the HTTP2_BROWSER environment variable does not exist. 
+To try out the tests, a sample browser is included. This is picked up if the HTTP2_BROWSER environment variable does not exist. Note that currently, the client is expected to directly connect with the HTTP2 protocol and no upgrade is used. ALPN as a negotiation will be added soon. 
 
 ## Testing the server
 
