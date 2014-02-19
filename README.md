@@ -37,7 +37,14 @@ To try out the tests, a sample browser is included. This is picked up if the HTT
 
 ## Testing the server
 
-> This is still a work in progress and there are no tests available currently. 
+After installing the dependencies as described above, run
+
+```bash
+$ grunt mochaTest:server
+```
+
+Currently the tests are run against a sample server. To test against a custom server, edit lib/server/index.js to include the appropriate IP and port. The support for setting this through environment variables will be added.
+
 
 #Adding Tests
 
