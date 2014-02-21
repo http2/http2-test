@@ -27,7 +27,8 @@
     "mocha": "~1.15.1",
     "glob": "~3.2.7",
     "chai": "~1.8.1",
-    "http2": "~2.2.0"
+    "http2": "~2.2.0",
+    "portfinder": "~0.2.1"
   },
   "devDependencies": {
     "grunt-mocha-test": "~0.8.1",
