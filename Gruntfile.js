@@ -1,4 +1,4 @@
-//Copyright (c) Microsoft Open Technologies, Inc. All rights reserved. Licensed under the BSD 2-Clause License.
+//Copyright (c) Microsoft Open Technologies, Inc. See LICENSE.txt for licensing information.
 
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
