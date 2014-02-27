@@ -1,3 +1,5 @@
+//Copyright (c) Microsoft Open Technologies, Inc. See LICENSE.txt for licensing information.
+
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 	grunt.initConfig({
