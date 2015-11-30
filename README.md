@@ -45,6 +45,8 @@ $ grunt mochaTest:server
 
 Currently the tests are run against a sample server. To test against a custom server, edit lib/server/index.js to include the appropriate IP and port. The support for setting this through environment variables will be added.
 
+There are additional server tests in the `server-tests` branch. This branch also includes a modified node-http2 module to allow non-compliant protocol behavior for testing purposes. The client tests in this branch haven't yet been updated to work with the modified http2 module.
+
 
 #Adding Tests
 
